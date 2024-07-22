@@ -689,19 +689,16 @@
     right: 1px;
     height: auto;
     width: auto;
-    /* box-shadow: 0 0 0 0px var(--handle-border); */
-    box-shadow: 0 0 0 0px hsl(0, 100%, 50%);
+    box-shadow: 0 0 0 0px var(--handle-border);
     opacity: 0;
   }
   :global(.rangeSlider.hoverable:not(.disabled) .rangeHandle:hover:before) {
-    /* box-shadow: 0 0 0 8px var(--handle-border); */
-    box-shadow: 0 0 0 8px hsl(0, 100%, 50%);
+    box-shadow: 0 0 0 8px var(--handle-border);
     opacity: 0.2;
   }
   :global(.rangeSlider.hoverable:not(.disabled) .rangeHandle.press:before),
   :global(.rangeSlider.hoverable:not(.disabled) .rangeHandle.press:hover:before) {
-    /* box-shadow: 0 0 0 12px var(--handle-border); */
-    box-shadow: 0 0 0 12px hsl(0, 100%, 50%);
+    box-shadow: 0 0 0 12px var(--handle-border);
     opacity: 0.4;
   }
   :global(.rangeSlider.range:not(.min):not(.max) .rangeNub) {
